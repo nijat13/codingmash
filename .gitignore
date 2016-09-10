@@ -3,4 +3,4 @@ dev/bower_components/
 dev/node_modules/
 dev/.sass-cache/
 .idea/
-#_design/
+_design/

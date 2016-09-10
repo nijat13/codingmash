@@ -1,0 +1,107 @@
+//  UI - special texts
+// --------------------------------------------------
+@include text-emphasis-variant('.text-white', #fff);
+
+
+
+
+/*  Helper classes
+----------------------------------------------------*/
+//////////////////////////
+// Dynamic classes
+//////////////////////////
+@each $slug, $position in (t, top),
+                         (b, bottom),
+                         (l, left),
+                         (r, right) {
+  .nm-#{$slug} {
+    margin-#{$position}: 0 !important;
+  }
+  .np-#{$slug} {
+    padding-#{$position}: 0 !important;
+  }
+  .nb-#{$slug} {
+    border-#{$position}: none !important;
+  }
+}
+
+
+////// Text colors...
+@each $txtclass, $clr in  (#{white}, $white),
+                          (#{green}, $pr-green),
+                          (#{blue}, $pr-blue),
+                          (#{gray}, $pr-gray),
+                          (#{black}, $pr-black) {
+  .text-#{$txtclass} {
+    color: #{$clr} !important;
+  }
+}
+
+
+
+//////////////////////////
+// Static classes
+//////////////////////////
+.nm {
+  margin: 0 !important;
+}
+
+.np {
+  padding: 0 !important;
+}
+
+.nb {
+  border: none !important;
+}
+
+.clear {
+  clear: both;
+}
+
+.font-w-normal {
+  font-weight: normal !important;
+}
+
+.bg-trns {
+  background: transparent !important;
+}
+
+.section {
+  margin-bottom: $section-distance !important;
+}
+
+.img-responsive-inline {
+  @include img-responsive(inline-block);
+}
+
+.display-inline {
+  display: inline-block !important;
+}
+
+.text-none {
+  text-decoration: none !important;
+}
+
+.text-underline{
+  text-decoration: underline;
+}
+
+.relative {
+  position: relative !important;
+}
+
+.absolute {
+  position: absolute !important;
+}
+
+.resize {
+  resize: none !important;
+}
+
+.over-hide {
+  overflow: hidden !important;
+}
+
+.cur-pot{
+  cursor: pointer !important;
+}

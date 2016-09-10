@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "description": "test str",
+  "main": "index.html",
+  "authors": [
+    "Labrin"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "project",
+    "keywords",
+    "if",
+    "exist"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.2",
+    "bootstrap-sass": "^3.3.6",
+    "font-awesome": "fontawesome#^4.6.3"
+  }
+}

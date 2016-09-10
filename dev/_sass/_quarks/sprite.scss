@@ -1,0 +1,72 @@
+// Sprites
+
+//$dropdown-blue: -2px, -2px, 10px, 5px;
+//$checkbox-blue: -2px, -11px, 12px, 8px;
+//$to-right: -2px, -23px, 5px, 8px;
+//$to-left: -2px, -35px, 5px, 8px;
+//$back: -2px, -47px, 4px, 8px;
+//$check-big-blue: -2px, -59px, 12px, 8px;
+//$next: -2px, -71px, 4px, 8px;
+//$check-green: -2px, -83px, 13px, 10px;
+//$pencil-blue: -2px, -97px, 11px, 11px;
+//$referance-white: -2px, -112px, 11px, 11px;
+//$comment-white: -2px, -127px, 11px, 11px;
+//$to-right-blue: -2px, -142px, 7px, 11px;
+//$eyes: -2px, -157px, 19px, 11px;
+//$message-blue: -2px, -172px, 15px, 11px;
+//$white-star-full: -2px, -187px, 12px, 12px;
+//$white-star: -2px, -203px, 12px, 12px;
+//$blue-mail: -2px, -219px, 19px, 12px;
+//$comment-dark: -2px, -236px, 13px, 13px;
+//$referance: -2px, -253px, 14px, 14px;
+//$calendar: -2px, -271px, 16px, 14px;
+//$comment-blue: -2px, -289px, 15px, 14px;
+//$user: -2px, -307px, 9px, 15px;
+//$air-plane: -2px, -326px, 15px, 15px;
+//$blue-star-full: -2px, -345px, 16px, 15px;
+//$blue-star: -2px, -364px, 16px, 15px;
+//$arrow-down: -2px, -384px, 30px, 16px;
+//$service: -2px, -404px, 18px, 18px;
+//$user-blue: -2px, -426px, 11px, 18px;
+//$cup: -2px, -448px, 17px, 18px;
+//$map-icon: -2px, -470px, 12px, 18px;
+//$photo: -2px, -492px, 21px, 19px;
+//$fork: -2px, -515px, 18px, 19px;
+//$calendar-white: -2px, -538px, 26px, 26px;
+//$double-comment-blue: -2px, -569px, 27px, 27px;
+//$heart: -2px, -600px, 31px, 27px;
+//$pay-card: -2px, -631px, 69px, 50px;
+//$bag: -2px, -685px, 57px, 57px;
+//$mini-map: -2px, -746px, 59px, 59px;
+//$ribbon: -2px, -809px, 28px, 67px;
+//
+//.sprite-width($sprite) {
+//    width: extract($sprite, 3);
+//}
+//
+//.sprite-height($sprite) {
+//    height: extract($sprite, 4);
+//}
+//
+//.sprite-position($sprite) {
+//    $sprite-offset-x: extract($sprite, 1);
+//    $sprite-offset-y: extract($sprite, 2);
+//    background-position: $sprite-offset-x  $sprite-offset-y;
+//}
+//
+//.sprite($sprite) {
+//    .sprite-position($sprite);
+//    background-repeat: no-repeat;
+//    overflow: hidden;
+//    display: inline-block;
+//    .sprite-width($sprite);
+//    .sprite-height($sprite);
+//}
+//
+//.pico {
+//    background-image: url('../img/sprite.png');
+//    $media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3/2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+//        background-image: url('../img/sprite$2x.png');
+//        background-size: 73px 878px;
+//    }
+//}

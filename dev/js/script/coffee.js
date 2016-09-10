@@ -1,6 +1,4 @@
 (function() {
-  $(function() {
-    return console.log("hello world!");
-  });
+  $(function() {});
 
 }).call(this);

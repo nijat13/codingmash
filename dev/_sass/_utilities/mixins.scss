@@ -168,6 +168,18 @@
   text-indent: -999em;
 }
 
+/*Vertical align center*/
+@mixin vertical-center(){
+  @include abs-pos(50%,auto,auto,auto);
+  @include transform(translateY(-50%));
+}
+
+/*Horizontal align center*/
+@mixin horizontal-center(){
+  @include abs-pos(auto,auto,auto, 50%);
+  @include transform(translateX(-50%));
+}
+
 
 ///*
 //** Project Mixins

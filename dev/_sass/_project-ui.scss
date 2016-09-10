@@ -28,10 +28,10 @@
 
 ////// Text colors...
 @each $txtclass, $clr in  (#{white}, $white),
-                          (#{green}, $pr-green),
-                          (#{blue}, $pr-blue),
-                          (#{gray}, $pr-gray),
-                          (#{black}, $pr-black) {
+                          (#{green}, $green),
+                          (#{blue}, $blue),
+                          (#{gray}, $gray),
+                          (#{black}, $black) {
   .text-#{$txtclass} {
     color: #{$clr} !important;
   }

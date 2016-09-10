@@ -17,8 +17,8 @@
     "type": "git",
     "url": "https://github.com/Nijat13/base_grunt_tmpl.git"
   },
-  "author": "Labrin",
-  "authorUrl": "http://labrin.net/",
+  "author": "Nijat",
+  "authorUrl": "http://nijatahmadov.info/",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",

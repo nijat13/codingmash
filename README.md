@@ -15,4 +15,4 @@ This structure will make you to write component based and modular code.
 
 ### Who do I talk to? ###
 
-* Repo owner: [nijatahmadov](https://github.com/Nijat13)
+[Nijat Ahmadov](https://github.com/Nijat13)

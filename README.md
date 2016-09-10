@@ -12,5 +12,6 @@ This structure will make you to write component based and modular code.
 * [BowerJS](http://bower.io/)
 * [CoffeeScript](http://coffeescript.org/)
 
-
-[Nijat Ahmadov](https://github.com/Nijat13)
+### Authors and license ###
+[Nijat Ahmadov](https://github.com/Nijat13).
+MIT License, see the included [License.md](https://github.com/Nijat13/frontend-boilerplate/blob/master/LICENSE) file.

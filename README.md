@@ -14,4 +14,5 @@ This structure will make you to write component based and modular code.
 
 ### Authors and license ###
 [Nijat Ahmadov](https://github.com/Nijat13).
-MIT License, see the included [License.md](https://github.com/Nijat13/frontend-boilerplate/blob/master/LICENSE) file.
+
+MIT License, see the included [License.md](blob/master/LICENSE) file.

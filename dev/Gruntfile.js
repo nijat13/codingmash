@@ -238,6 +238,22 @@ module.exports = function(grunt) {
         },
 
 
+        // Serving as a server
+        'http-server': {
+          'dev': {
+            root: '../public',
+            port: 9000,
+            host: "localhost",
+            cache: 3,
+            showDir : true,
+            autoIndex: true,
+            ext: "html",
+            runInBackground: false,
+            openBrowser : true
+          }
+        },
+
+
         // Watch plugin
         watch: {
             options: {
@@ -284,11 +300,15 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-assemble');
     grunt.loadNpmTasks('grunt-injector');
     grunt.loadNpmTasks('grunt-fontface');
+    grunt.loadNpmTasks('grunt-http-server');
 
 
 
     // Default tasks on running.
     grunt.registerTask('default', ['coffee', 'uglify', 'injector', 'assemble']);
+
+    // serve task ( run it as a server )
+    grunt.registerTask('serve', ['http-server:dev', 'watch']);
 
     // Task for build fonts
     grunt.registerTask('fonts', ['fontface']);

@@ -239,17 +239,17 @@ module.exports = function(grunt) {
 
 
         // Serving as a server
-        connect: {
-          server: {
-            options: {
-              port: 9000,
-              base: {
-                path: '../public',
-                options: {
-                  index: 'index.html'
-                }
-              }
-            }
+        'http-server': {
+          'dev': {
+            root: '../public',
+            port: 9000,
+            host: "localhost",
+            cache: 3,
+            showDir : true,
+            autoIndex: true,
+            ext: "html",
+            runInBackground: false,
+            openBrowser : true
           }
         },
 
@@ -300,12 +300,15 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-assemble');
     grunt.loadNpmTasks('grunt-injector');
     grunt.loadNpmTasks('grunt-fontface');
-    grunt.loadNpmTasks('grunt-connect');
+    grunt.loadNpmTasks('grunt-http-server');
 
 
 
     // Default tasks on running.
-    grunt.registerTask('default', ['coffee', 'uglify', 'injector', 'assemble', 'connect:server']);
+    grunt.registerTask('default', ['coffee', 'uglify', 'injector', 'assemble']);
+
+    // serve task ( run it as a server )
+    grunt.registerTask('serve', ['http-server:dev', 'watch']);
 
     // Task for build fonts
     grunt.registerTask('fonts', ['fontface']);

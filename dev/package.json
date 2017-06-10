@@ -6,7 +6,7 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "grunt watch && nodemon server.js --ignore app"
+    "serve": "grunt http-server:dev && grunt watch"
   },
   "keywords": [
     "project",
@@ -24,7 +24,6 @@
   "dependencies": {
     "grunt": "^1.0.1",
     "grunt-assemble": "^0.6.3",
-    "grunt-connect": "^0.2.0",
     "grunt-contrib-coffee": "^1.0.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-concat": "^1.0.1",
@@ -33,8 +32,8 @@
     "grunt-contrib-uglify": "^3.0.1",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-fontface": "^0.9.0",
+    "grunt-http-server": "^2.0.0",
     "grunt-injector": "^1.1.0",
-    "grunt-newer": "^1.3.0",
-    "nodemon": "^1.11.0"
+    "grunt-newer": "^1.3.0"
   }
 }

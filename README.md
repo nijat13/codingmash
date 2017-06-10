@@ -2,6 +2,11 @@
 
 This structure will make you to write component based and modular code.
 
+## Install and running..
+`yarn install` or `npm install` (if you're using mac you'll probably need to add `sudo` before)
+
+`grunt watch`
+
 
 ### For using this structure you need to know: ###
 * [Twitter Bootstrap](http://getbootstrap.com/)

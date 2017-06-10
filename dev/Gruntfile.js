@@ -238,6 +238,22 @@ module.exports = function(grunt) {
         },
 
 
+        // Serving as a server
+        connect: {
+          server: {
+            options: {
+              port: 9000,
+              base: {
+                path: '../public',
+                options: {
+                  index: 'index.html'
+                }
+              }
+            }
+          }
+        },
+
+
         // Watch plugin
         watch: {
             options: {
@@ -284,11 +300,12 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-assemble');
     grunt.loadNpmTasks('grunt-injector');
     grunt.loadNpmTasks('grunt-fontface');
+    grunt.loadNpmTasks('grunt-connect');
 
 
 
     // Default tasks on running.
-    grunt.registerTask('default', ['coffee', 'uglify', 'injector', 'assemble']);
+    grunt.registerTask('default', ['coffee', 'uglify', 'injector', 'assemble', 'connect:server']);
 
     // Task for build fonts
     grunt.registerTask('fonts', ['fontface']);

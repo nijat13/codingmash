@@ -5,7 +5,8 @@
   "description": "Fronend boilerplate for developing structures..",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "grunt watch && grunt connect"
   },
   "keywords": [
     "project",
@@ -23,6 +24,7 @@
   "dependencies": {
     "grunt": "^1.0.1",
     "grunt-assemble": "^0.6.3",
+    "grunt-connect": "^0.2.0",
     "grunt-contrib-coffee": "^1.0.0",
     "grunt-contrib-compass": "^1.1.1",
     "grunt-contrib-concat": "^1.0.1",

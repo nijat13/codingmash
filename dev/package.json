@@ -5,8 +5,7 @@
   "description": "Fronend boilerplate for developing structures..",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "grunt http-server:dev && grunt watch"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "project",

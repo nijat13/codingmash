@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add grunt
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/nijatahmadov/.asdf/bin:/Users/nijatahmadov/.asdf/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Android/sdk/platform-tools:/Library/Android/sdk/tools
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  7.4.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "project-name",
+    "url": "http://example.url/",
+    "version": "0.1.0",
+    "description": "Project Description",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "project",
+      "keywords",
+      "if",
+      "exist"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Nijat13/base_grunt_tmpl.git"
+    },
+    "author": "Nijat",
+    "authorUrl": "http://nijatahmadov.info/",
+    "license": "ISC",
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/nijatahmadov/Documents/Github/frontend-boilerplate/dev/node_modules/grunt-cli'

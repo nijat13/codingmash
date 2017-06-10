@@ -118,7 +118,7 @@ module.exports = function(grunt) {
         uglify: { // Minify files with UglifyJS.
             options: {
                 mangle: {
-                    except: ['jQuery']
+                    reserved: ['jQuery']
                 },
                 banner: '/*!\n' +
                 ' * <%= pkg.name %>\n' +
@@ -300,6 +300,6 @@ module.exports = function(grunt) {
     grunt.registerTask('bower:update', ['copy:bower']);
 
     // Task for build public version of js
-    grunt.registerTask('build', ['newer:coffee', 'copy:js', 'concat:js', 'concat:compact', 'compass:build', 'assemble', 'newer:uglify']);
+    grunt.registerTask('build', ['newer:coffee', 'copy:js', 'concat:js', 'concat:compact', 'compass:build', 'assemble', 'uglify']);
 
 };

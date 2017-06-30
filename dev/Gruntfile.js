@@ -239,26 +239,20 @@ module.exports = function(grunt) {
 
 
         // Serving as a server
-        'http-server': {
-          'dev': {
-            root: '../public',
-            port: 9000,
-            host: "localhost",
-            cache: 3,
-            showDir : true,
-            autoIndex: true,
-            ext: "html",
-            runInBackground: false,
-            openBrowser : true
+        connect: {
+          server: {
+            options: {
+              livereload: true,
+              base: '<%= conf.dist %>/',
+              port: 4000,
+              open: true
+            }
           }
         },
 
 
         // Watch plugin
         watch: {
-            options: {
-                livereload: true // <script src="//localhost:35729/livereload.js"></script>
-            },
 
             // Watch css
             css: {
@@ -300,7 +294,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-assemble');
     grunt.loadNpmTasks('grunt-injector');
     grunt.loadNpmTasks('grunt-fontface');
-    grunt.loadNpmTasks('grunt-http-server');
+    grunt.loadNpmTasks('grunt-contrib-connect');
 
 
 
@@ -308,7 +302,7 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['coffee', 'uglify', 'injector', 'assemble']);
 
     // serve task ( run it as a server )
-    grunt.registerTask('serve', ['http-server:dev', 'watch']);
+    grunt.registerTask('serve', ['connect:server', 'watch']);
 
     // Task for build fonts
     grunt.registerTask('fonts', ['fontface']);

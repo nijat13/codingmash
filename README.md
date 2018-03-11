@@ -3,6 +3,8 @@
 This structure will make you to write component based and modular code.
 
 ## Install and running..
+`cd dev/`
+
 `yarn install` or `npm install` (if you're using mac, you probably will need to add `sudo` before)
 
 `grunt serve`

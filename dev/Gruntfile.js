@@ -208,8 +208,8 @@ module.exports = function(grunt) {
             options: {
                 flatten: true,
                 partials: ['_templates/_includes/**/*.hbs'],
-                layoutdir: '_templates/_layouts',
-                layout: 'default.hbs'
+                layoutdir: '_templates',
+                layout: 'index.hbs'
             },
             site: {
                 files: {'<%= conf.dist %>/': ['_templates/_pages/*.hbs']}

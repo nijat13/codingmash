@@ -19,6 +19,11 @@ This structure will make you to write component based and modular code.
 * [BowerJS](http://bower.io/)
 * [CoffeeScript](http://coffeescript.org/)
 
+### TODO list
+ - [ ] Documentation for folder structure.
+ - [ ] Example (Demo)
+ - [ ] Testing for workflow
+
 ### Authors and license ###
 [Nijat Ahmadov](https://github.com/Nijat13).
 

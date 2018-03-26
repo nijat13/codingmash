@@ -21,7 +21,7 @@ This structure will make you to write component based and modular code.
 
 ### TODO list:
  - [ ] Documentation for folder structure.
- - [ ] Example (Demo)
+ - [ ] Example Coding (Demo)
  - [ ] Testing for workflow
 
 ### Authors and license ###

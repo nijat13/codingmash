@@ -21,6 +21,7 @@ This structure will make you to write component based and modular code.
 
 ### TODO list:
  - [ ] Update to Bootstrap 4
+ - [ ] Make config files as a root files.
  - [ ] Documentation for folder structure.
  - [ ] Example Coding (Demo)
  - [ ] Testing for workflow

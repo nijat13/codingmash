@@ -66,9 +66,9 @@
   background: transparent !important;
 }
 
-.section {
-  margin-bottom: $section-distance !important;
-}
+// .section {
+//   margin-bottom: $section-distance !important;
+// }
 
 .img-responsive-inline {
   @include img-responsive(inline-block);

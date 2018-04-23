@@ -21,6 +21,7 @@
   "authorUrl": "http://nijatahmadov.info/",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.1.0",
     "grunt": "^1.0.1",
     "grunt-assemble": "^0.6.3",
     "grunt-contrib-coffee": "^1.0.0",
